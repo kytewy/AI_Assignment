@@ -1,0 +1,38 @@
+[
+  {
+    "utility_company": "nested_heat",
+    "mapping": {
+      "customer.id": "customer_id",
+      "customer.meter.number": "meter_id",
+      "customer.meter.readings.consumption": "consumption_value",
+      "customer.meter.readings.unit": "consumption_unit",
+      "timestamp": "timestamp",
+      "billing.type": "category"
+    },
+    "additional_info": {},
+    "customer_id": "C001",
+    "meter_id": "NE123",
+    "consumption_value": 275.5,
+    "consumption_unit": "kWh",
+    "timestamp": "2023-08-15T16:30:00",
+    "category": "residential"
+  },
+  {
+    "utility_company": "nested_heat",
+    "mapping": {
+      "customer.id": "customer_id",
+      "customer.meter.number": "meter_id",
+      "customer.meter.readings.consumption": "consumption_value",
+      "customer.meter.readings.unit": "consumption_unit",
+      "timestamp": "timestamp",
+      "billing.type": "category"
+    },
+    "additional_info": {},
+    "customer_id": "C002",
+    "meter_id": "NE456",
+    "consumption_value": 450.0,
+    "consumption_unit": "kWh",
+    "timestamp": "2023-08-15T17:00:00",
+    "category": "industrial"
+  }
+]

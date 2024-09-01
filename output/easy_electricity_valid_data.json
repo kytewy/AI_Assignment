@@ -1,0 +1,32 @@
+[
+  {
+    "utility_company": "easy_electricity",
+    "mapping": {
+      "account_id": "customer_id",
+      "meter_number": "meter_id",
+      "consumption_kwh": "consumption_value",
+      "reading_timestamp": "timestamp"
+    },
+    "additional_info": {},
+    "customer_id": "A001",
+    "meter_id": "E123",
+    "consumption_value": 250.5,
+    "timestamp": "2023-08-15T14:30:00",
+    "consumption_unit": "unknown"
+  },
+  {
+    "utility_company": "easy_electricity",
+    "mapping": {
+      "account_id": "customer_id",
+      "meter_number": "meter_id",
+      "consumption_kwh": "consumption_value",
+      "reading_timestamp": "timestamp"
+    },
+    "additional_info": {},
+    "customer_id": "A002",
+    "meter_id": "E456",
+    "consumption_value": 300.0,
+    "timestamp": "2023-08-15T15:00:00",
+    "consumption_unit": "unknown"
+  }
+]
